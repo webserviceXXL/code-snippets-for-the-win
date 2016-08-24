@@ -1,2 +1,2 @@
-# code-snippets-for-the-win
-Collection of code snippets
+# Code snippets FTW
+A fucking awsome collection of code snippets you ...
