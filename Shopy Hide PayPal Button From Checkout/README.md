@@ -2,4 +2,4 @@
 One of the most requested functions. Hide the PayPal Button in the checkout(!).
 
 ## How
-Just copy and paste the code into the "Enhanced Google Analytics" settingsi n your store admin.
+Just copy and paste the code into the "Enhanced Google Analytics" settings in your store admin.

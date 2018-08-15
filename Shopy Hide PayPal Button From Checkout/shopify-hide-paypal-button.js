@@ -3,6 +3,6 @@
 
   var hideBtn = document.getElementsByClassName('alt-payment-list-container'), i;
   for (var i = 0; i < hideBtn.length; i ++) {
-      hideBtn[i].style.display = 'none';
+    hideBtn[i].style.display = 'none';
   }
 });
