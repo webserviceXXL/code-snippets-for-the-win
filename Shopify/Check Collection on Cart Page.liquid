@@ -1,0 +1,6 @@
+{% for collection in line_item.product.collections %}
+    <script>console.log('C: {{ collection.handle }}');</script>
+    {% if collection.handle == "my-collection" %}
+        {%- assign inCollection = true -%}
+    {% endif %}
+{% endfor %}

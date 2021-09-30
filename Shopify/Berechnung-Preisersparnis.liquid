@@ -1,0 +1,8 @@
+{% if product.compare_at_price_max > product.price %}
+<div class="price__sparen">
+    {% assign ersparnis = price | minus: compare_at_price %}
+    {% assign w = ersparnis %}
+    {% assign g = compare_at_price | divided_by: 100.00 %}
+    Du sparst: {{ ersparnis | times: -1 | money }} ({{ w | divided_by: g | times: -1 | round: 0 }}%)
+</div>
+{% endif %}
